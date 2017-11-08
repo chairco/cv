@@ -1,0 +1,15 @@
+current directory: /Users/chairco/OneDrive/SourceCode/gitio/cv_page/my-awesome-cv/.rubydeps/ruby/2.4.0/gems/posix-spawn-0.3.13/ext
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20171108-45852-1db08oo.rb extconf.rb
+creating Makefile
+
+current directory: /Users/chairco/OneDrive/SourceCode/gitio/cv_page/my-awesome-cv/.rubydeps/ruby/2.4.0/gems/posix-spawn-0.3.13/ext
+make "DESTDIR=" clean
+
+current directory: /Users/chairco/OneDrive/SourceCode/gitio/cv_page/my-awesome-cv/.rubydeps/ruby/2.4.0/gems/posix-spawn-0.3.13/ext
+make "DESTDIR="
+compiling posix-spawn.c
+linking shared-object posix_spawn_ext.bundle
+
+current directory: /Users/chairco/OneDrive/SourceCode/gitio/cv_page/my-awesome-cv/.rubydeps/ruby/2.4.0/gems/posix-spawn-0.3.13/ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 posix_spawn_ext.bundle ./.gem.20171108-45852-lyi90

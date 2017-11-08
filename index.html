@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<header class="site-header">
+    <div class="site-header-container">
+        <img class="site-avatar" src="{{ "/img/profile.jpg" | prepend: site.baseurl }}">
+    <span class="content">
+        <span class="site-title">
+            <span class="site-name">{{ site.person_name }}</span>
+            <span class="site-nickname">(@{{ site.person_nickname }})</span>
+            <span class="site-description">> {{ site.description }}</span>
+            <span class="site-description-2">> {{ site.description-2 }}</span>
+        </span>
+        <div class="site-links">
+            <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github"></i><span class="link-text">github</span></a>
+            <a href="{{ site.blog_url }}"><i class="fa fa-code"></i><span class="link-text">tech blog</span></a>
+            <a href="http://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fa fa-linkedin"></i><span class="link-text">linkedin</span></a>
+            <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter"></i><span class="link-text">twitter</span></a>
+            <!--
+             Hardcoded obfuscated Javascript script for email to prevent spam
+             TODO: Keep obfuscation while enabling Jekyll liquid insert email in _config.yml
+             -->
+            <script type="text/javascript">
+            eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('7.f(c("%e%b%1%a%9%5.6%2%0%8%4%1%d%o-m%2%0%3%n%0%g%4%1%l-k%2%h%5.6%3%i%0%3%j%0"));',25,25,'3E|3D|22|3C|20class|40gmail|com|document|3Ci|3Atzulitai|22mailto|20href|unescape|22fa|3Ca|write|3Cspan|3Etzulitai|2Fspan|2Fa|text|22link|envelope|2Fi|20fa'.split('|'),0,{}))
+            </script>
+            <a href="{{ site.cv_url }}"><i class="fa fa-file-text-o"></i><span class="link-text">CV (pdf)</span></a>
+        </div>
+    </span>
+    </div>
+</header>

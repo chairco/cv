@@ -5,7 +5,7 @@ person_nickname: Jason
 description: Software Engineer
 description-2: Project Engineer
 baseurl: "" # site subpath
-url: https://chairco.me # site base hostname & protocol
+url: https://blog.chairco.me # site base hostname & protocol
 permalink: /:title/
 
 blog_url: https//chairco.github.io

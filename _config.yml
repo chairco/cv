@@ -9,7 +9,7 @@ url: https://blog.chairco.me # site base hostname & protocol
 permalink: /:title/
 
 blog_url: https//chairco.github.io
-cv_url: https://chairco.me/files/CV.pdf
+cv_url: https://chairco.github.io/files/CV.pdf
 twitter_username: ChaircoChen
 github_username: chairco
 linkedin_username: chairco

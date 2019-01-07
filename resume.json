@@ -1,0 +1,205 @@
+{
+  "basics": {
+    "name": "YiChieh Chen",
+    "label": "Software Engineer, Web Backend Developer",
+    "picture": "",
+    "email": "chairco@gmail.com",
+    "phone": "",
+    "website": "https://chairco.me",
+    "summary": "Yi-Chieh Chen earned his master degree at the graduate school of Institute of Healthcare Information Management in CCU. He has served as a senior software R & D engineer for 5 years at Pegatron. He is also the Program volunteer for PyCon Taiwan between 2016-2018. He love Python’s clean, and had a sense of achievement when he finished the complex work in the clean code. Yi-Chieh like using Django framework to make system for other engineers to get done job more easily and also like to integration kind of different tools together. Recent now he also interested in research Machine Learning and Deep Learning.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "chairco",
+        "url": "https://github.com/chairco"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Hopax",
+      "position": "Specialist",
+      "website": "",
+      "startDate": "2018-03",
+      "endDate": "present",
+      "summary": "Data Analysis",
+      "highlights": [
+        "使用 Python 開發 Serial port 來擷取 AOI 機器的數值(程式使用 coroutine 與 asyncio 套件",
+        "使用 Django framework 建立 Restful service，讓 client 端可透過 api 存入資料",
+        "使用 Django framework 建立前端 web，提供使用者視覺化資訊，且能方便搜尋資料",
+        "使用 Docker, Docker-compose 將上述的 service 與資料庫包裝成 image 並虛擬化",
+        "架設 portainer.io 管理 Docker-compose",
+        "將 AOI 產生的圖檔使用 pandas, numpy 轉換成數值，在 scikit-learn 套件上使用機器學習演算法進行分類"
+      ]
+    },
+    {
+      "company": "Foxconn",
+      "position": "Project/Data Engineer",
+      "website": "",
+      "startDate": "2017-09",
+      "endDate": "2018-01",
+      "summary": "ETL、網頁後端開發",
+      "highlights": [
+        "使用 Python 開發 ETL 系統與 Airflow 建立 Pipline 流程進行數據轉換與相關資料工程 ",
+        "使用 Python 與 R 開發與整合機器學習的演算法並使用 Django rest-framework 建構 API 供前端使用",
+        "開發 PostgreSQL 上的 SQL function 做 API 使用",
+        "使用 Python multithreaded 進行 ETL 優化",
+        "使用 Python coroutine 優化資料庫之間轉換的效率(實測加速近 30x)"
+      ]
+    },
+    {
+      "company": "Pegatron(Taipei)",
+      "position": "Specialist/Senior Software Engineer",
+      "website": "http://www.pegatroncorp.com/",
+      "startDate": "2012-03",
+      "endDate": "2017-03",
+      "summary": "軟體開發、軟體自動化與測試、製程分析、網頁後端開發",
+      "highlights": [
+        "使用 Python、C# 建立與共同開發 Chrome 產品線的測試軟體、軟體自動化與整合流程",
+        "使用 C、C#、AutoIT、建立與開發 Surface RT 產品線的測試軟體、軟體自動化與整合流程",
+        "使用 C 開發測試 Battery 演算法與程式",
+        "根據執行時間與 CPU 與記憶體使用率分析與優化軟體效能",
+        "使用 Django framework 開發追蹤產品系統以及查詢網站，並且提供 API 給其他開發者串接",
+        "使用 Python、Kafka、Hadoop、Hbase、MongoDB 與 MySQL 開發 ETL 系統與架構以及相關 Pipline 流程進行數據搜集、整合等資料工程",
+        "使用 Scikit-learn 進行組裝線製程的數據分析"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "PyCon Taiwan",
+      "position": "volunteer",
+      "website": "https://tw.pycon.org/",
+      "startDate": "2016-03",
+      "endDate": "2018-06",
+      "summary": "Let all of Pythonistas gather and share in Taiwan",
+      "highlights": [
+        "Program reviewer ",
+        "Contribute PyConTW official website ",
+        "Contribute game of the Conference at 2017 "
+      ]
+    },
+    {
+      "organization": "Taichung.py",
+      "position": "Speaker",
+      "website": "https://taichung-py.kktix.cc/events/meetup-2018-10-coroutine",
+      "startDate": "2018-10-13",
+      "endDate": "2018-10-13",
+      "summary": "搞懂 Python 協同程序(Coroutine): 快樂學會非同步程式開發",
+      "highlights": []
+    },
+    {
+      "organization": "Kaohsiung.py",
+      "position": "Speaker",
+      "website": "https://www.meetup.com/Kaohsiung-Python-Meetup/events/254619272",
+      "startDate": "2018-09-18",
+      "endDate": "2018-09-18",
+      "summary": "async 資料工程 await Serial port",
+      "highlights": []
+    },
+    {
+      "organization": "Kaohsiung.py",
+      "position": "Speaker",
+      "website": "",
+      "startDate": "2018-06-19",
+      "endDate": "2018-06-19",
+      "summary": "架設讓大家用的 Jupyter-jupyterhub",
+      "highlights": []
+    },
+    {
+      "organization": "Kaohsiung.py",
+      "position": "Speaker",
+      "website": "https://www.meetup.com/Kaohsiung-Python-Meetup/events/251634923/",
+      "startDate": "2018-06-13",
+      "endDate": "2018-06-13",
+      "summary": "如何自幹一個 Python coroutine",
+      "highlights": []
+    },
+    {
+      "organization": "PyConTW 2018",
+      "position": "Speaker",
+      "website": "https://tw.pycon.org/2018/en-us/events/talk/596176470288629939/",
+      "startDate": "2018-06-02",
+      "endDate": "2018-06-02",
+      "summary": "Easy way to build a real time and asynchronous web or app with Django Channels",
+      "highlights": []
+    },
+    {
+      "organization": "PyConTW 2017",
+      "position": "Speaker",
+      "website": "https://tw.pycon.org/2017/en-us/events/talk/314386410792550475/",
+      "startDate": "2017-06-11",
+      "endDate": "2017-06-11",
+      "summary": "用 Django 建立一個可以設定爬蟲排程任務與監控的網站",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "National Chung Cheng University",
+      "area": "information management",
+      "studyType": "Master",
+      "startDate": "2008-09",
+      "endDate": "2010-12",
+      "gpa": "4.0",
+      "courses": [
+        "Information Systems Success Model",
+        "Knowledge management system",
+        "Health management information system"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "聯發科 2015 通訊大賽",
+      "date": "2015-05",
+      "awarder": "TUTK 專題獎 - 菊下樓",
+      "summary": "智慧魚缸相關介紹(http://mobilehero.com/history/item/324-b2015_6.html)"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Backend Development",
+      "level": "Master",
+      "keywords": [
+        "Python",
+        "Django",
+        "REST API",
+        "javascript",
+        "jquery",
+        "D3.js",
+        "HTML"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Master",
+      "keywords": [
+        "Object orientation",
+        "Functional programming",
+        "Asynchronous",
+        "Script"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinese",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "mid"
+    }
+  ],
+  "interests": [],
+  "references": []
+}

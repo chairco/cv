@@ -191,7 +191,6 @@
         "REST API",
         "javascript",
         "jquery",
-        "D3.js",
         "HTML"
       ]
     },
@@ -203,6 +202,26 @@
         "Functional programming",
         "Asynchronous",
         "Script"
+      ]
+    },
+    {
+      "name": "Machine Leaning",
+      "level": "Master",
+      "keywords": [
+        "Statistic",
+        "Data Engineering",
+        "SQL",
+        "Scikit-learn"
+      ]
+    },
+    {
+      "name": "Deep Leaning",
+      "level": "Master",
+      "keywords": [
+        "Calculus",
+        "Neural Network",
+        "Kearns",
+        "Tensorflow"
       ]
     }
   ],

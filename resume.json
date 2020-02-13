@@ -88,13 +88,22 @@
       ]
     }
   ],
-  "volunteer": [
+  "volunteer/talk": [
+    {
+      "organization": "PyConTW 2019",
+      "position": "Speaker",
+      "website": "https://tw.pycon.org/2019/events/talk/830493864153317584/",
+      "startDate": "2019-09-20",
+      "endDate": "2019-09-22",
+      "summary": "async def Serial() await Serial_connection",
+      "highlights": []
+    },
     {
       "organization": "PyCon Taiwan",
       "position": "volunteer",
       "website": "https://tw.pycon.org/",
       "startDate": "2016-03",
-      "endDate": "2018-06",
+      "endDate": "2019-06",
       "summary": "Let all of Pythonistas gather and share in Taiwan",
       "highlights": [
         "Program reviewer ",
@@ -205,7 +214,7 @@
       ]
     },
     {
-      "name": "Machine Leaning",
+      "name": "Machine Learning",
       "level": "Master",
       "keywords": [
         "Statistic",
@@ -215,7 +224,7 @@
       ]
     },
     {
-      "name": "Deep Leaning",
+      "name": "Deep Learning",
       "level": "Master",
       "keywords": [
         "Calculus",
